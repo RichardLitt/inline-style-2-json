@@ -1,0 +1,34 @@
+{
+  "name": "inline-style-2-json",
+  "version": "1.0.0",
+  "description": "Convert CSS inline stlyes to JSON",
+  "license": "MIT",
+  "repository": "RichardLitt/inline-style-2-json",
+  "author": {
+    "name": "Richard Littauer",
+    "email": "richard.littauer@gmail.com",
+    "url": "burntfen.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "standard && mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "inline styles",
+    "css",
+    "json",
+    "parse"
+  ],
+  "dependencies": {
+    "lodash": "^3.10.1"
+  },
+  "devDependencies": {
+    "standard": "^5.3.1",
+    "mocha": "^2.2.5"
+  }
+}
