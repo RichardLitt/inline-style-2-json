@@ -2,6 +2,7 @@
 
 > Convert CSS inline styles to JSON
 
+This is a small function that takes the content of a `style` tag (as a string) and outputs an object or a JSON string. This is useful if you are piping HTML through [xml-objects](https://github.com/timhudson/xml-objects) or something similar and you want finer granularity.
 
 ## Install
 
