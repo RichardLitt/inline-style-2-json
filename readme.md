@@ -17,6 +17,9 @@ var inlineStyle2Json = require('inline-style-2-json');
 
 inlineStyle2Json('position:absolute;h-index:9001;');
 //=> "{ position: 'absolute', 'h-index': '9001'}"
+
+inlineStyle2Json('position:absolute;h-index:9001;', {'stringify': true});
+//=> '{"position":"absolute","h-index":"9001"}'
 ```
 
 
