@@ -24,9 +24,7 @@
     "json",
     "parse"
   ],
-  "dependencies": {
-    "lodash": "^3.10.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "standard": "^5.3.1",
     "mocha": "^2.2.5"
