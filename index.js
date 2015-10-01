@@ -13,5 +13,5 @@ module.exports = function (str, opts) {
       obj[attr[0]] = attr[1]
     }
   })
-  return obj
+  return opts.stringify && JSON.stringify(obj) || obj
 }

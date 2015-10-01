@@ -32,7 +32,12 @@ This should be your inline style string.
 
 #### options
 
-_Currently no options._
+##### stringify
+
+Type: `boolean`  
+Default: `false`
+
+Return stringified object.
 
 
 ## License
