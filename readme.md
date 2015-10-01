@@ -1,6 +1,6 @@
 # inline-style-2-json [![Build Status](https://travis-ci.org/RichardLitt/inline-style-2-json.svg?branch=master)](https://travis-ci.org/RichardLitt/inline-style-2-json)
 
-> Convert CSS inline stlyes to JSON
+> Convert CSS inline styles to JSON
 
 
 ## Install
