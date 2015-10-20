@@ -7,7 +7,7 @@
   "author": {
     "name": "Richard Littauer",
     "email": "richard.littauer@gmail.com",
-    "url": "burntfen.com"
+    "url": "http://www.burntfen.com"
   },
   "engines": {
     "node": ">=0.10.0"
