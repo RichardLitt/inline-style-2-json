@@ -1,6 +1,7 @@
-# inline-style-2-json [![Build Status](https://travis-ci.org/RichardLitt/inline-style-2-json.svg?branch=master)](https://travis-ci.org/RichardLitt/inline-style-2-json)
+# inline-style-2-json
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/RichardLitt/inline-style-2-json.svg)](https://greenkeeper.io/)
+[![Build Status](https://travis-ci.org/RichardLitt/inline-style-2-json.svg?branch=master)](https://travis-ci.org/RichardLitt/inline-style-2-json)
 
 > Convert CSS inline styles to JSON
 
@@ -45,7 +46,10 @@ Default: `false`
 
 Return stringified object.
 
+## Contribute
+
+Sure! Open an issue, open a PR.
 
 ## License
 
-MIT © [Richard Littauer](http://burntfen.com)
+[MIT](license) © 2018 [Richard Littauer](http://burntfen.com)
