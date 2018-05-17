@@ -4,10 +4,14 @@
 var assert = require('assert')
 var inlineStyle2Json = require('./')
 
-it('should ', function () {
+it('should split two inline attributes correctly', function () {
   assert.deepEqual(inlineStyle2Json('position:absolute;h-index:9001;'), {position: 'absolute', 'hIndex': '9001'})
 })
 
-it('should ', function () {
+it('should stringify', function () {
   assert.deepEqual(inlineStyle2Json('position:absolute;h-index:9001;', {'stringify': true}), '{"position":"absolute","hIndex":"9001"}')
+})
+
+it('should catch colons in urls', function () {
+  assert.deepEqual(inlineStyle2Json('position:absolute;background:url(https://mdn.mozillademos.org/files/11305/firefox.png), url(https://mdn.mozillademos.org/files/11307/bubbles.png);'), {'position': 'absolute', 'background': 'url(https://mdn.mozillademos.org/files/11305/firefox.png), url(https://mdn.mozillademos.org/files/11307/bubbles.png)'})
 })
