@@ -18,5 +18,9 @@ module.exports = function (str, opts) {
       obj[attr[0]] = attr[1]
     }
   })
-  return opts.stringify && JSON.stringify(obj) || obj
+  if (opts.stringify) {
+    return JSON.stringify(obj)
+  } else {
+    return obj
+  }
 }
