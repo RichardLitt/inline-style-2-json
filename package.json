@@ -1,6 +1,6 @@
 {
   "name": "inline-style-2-json",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Convert CSS inline styles to JSON",
   "license": "MIT",
   "repository": "RichardLitt/inline-style-2-json",
