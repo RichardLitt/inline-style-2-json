@@ -17,9 +17,9 @@ module.exports = function (str, opts) {
   var obj = {}
 
   str.split(';').forEach(function (string) {
+    var attr = string.split(':')
+    let attrName
     if (string !== '') {
-      var attr = string.split(':')
-      let attrName
       if (attr.length > 2) {
         attrName = attr.shift()
         attrName = addDash(attrName)
